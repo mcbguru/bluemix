@@ -1,0 +1,12 @@
+applications:
+- services:
+  - mcslptds:DataCache
+  - Time Series Database-px
+  disk_quota: 1024M
+  host: mcslptds
+  name: mcslptds
+  command: node app.js
+  path: .
+  domain: mybluemix.net
+  instances: 1
+  memory: 512M

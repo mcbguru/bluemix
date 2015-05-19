@@ -1,0 +1,2 @@
+{"RemoteException":{"message":"Cannot create file \/logprocess1; already exists as a directory.","exception":"FileAlreadyExistsException","javaClassName":"org.apache.hadoop.fs.FileAlreadyExistsException"}}
+{"RemoteException":{"message":"Cannot create file \/logprocess1; already exists as a directory.","exception":"FileAlreadyExistsException","javaClassName":"org.apache.hadoop.fs.FileAlreadyExistsException"}}

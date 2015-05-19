@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Graph</title>
+<link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+</head>
+<body>
+<script src="jquery.js"></script>
+<script src="jquery.flot.js"></script>
+<script src="jquery.flot.time.js"></script>
+
+<script>
+  $(document).ready(function() {
+  var dataseries = [];
+
+    $.getJSON("/graphpoints", function(json) {
+        $.plot($("#plot") , [json],{ xaxis: { mode: "time"}});
+    });
+
+});
+</script>
+
+<div id="plot"></div>
+<div id="plotdata"></div>
+
+</body>
+</html>

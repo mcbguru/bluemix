@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Expires: Thu, 01-Jan-1970 00:00:00 GMT
+Set-Cookie: hadoop.auth="u=httpfs&p=httpfs&t=simple&e=1417405329694&s=bhrIOq6idye+yPYNT98jPBrZlAk=";Path=/
+Content-Type: application/json
+Transfer-Encoding: chunked
+Server: Jetty(6.1.x)
+
+{"boolean":true}

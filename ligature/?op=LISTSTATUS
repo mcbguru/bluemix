@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Expires: Thu, 01-Jan-1970 00:00:00 GMT
+Set-Cookie: hadoop.auth="u=biblumix&p=biblumix&t=simple&e=1417405086289&s=/8YJrBuqV0RSUlb+AfbjLOOwH0I=";Path=/
+Content-Type: application/json
+Transfer-Encoding: chunked
+Server: Jetty(6.1.x)
+
+{"FileStatuses":{"FileStatus":[{"pathSuffix":"biginsights","type":"DIRECTORY","length":0,"owner":"hdfs","group":"biadmin","permission":"775","accessTime":0,"modificationTime":1413538134884,"blockSize":0,"replication":0},{"pathSuffix":"hadoop","type":"DIRECTORY","length":0,"owner":"hdfs","group":"biadmin","permission":"755","accessTime":0,"modificationTime":1413537596050,"blockSize":0,"replication":0},{"pathSuffix":"hbase","type":"DIRECTORY","length":0,"owner":"hbase","group":"biadmin","permission":"755","accessTime":0,"modificationTime":1417331524064,"blockSize":0,"replication":0},{"pathSuffix":"tmp","type":"DIRECTORY","length":0,"owner":"hdfs","group":"biadmin","permission":"1777","accessTime":0,"modificationTime":1417331980395,"blockSize":0,"replication":0},{"pathSuffix":"user","type":"DIRECTORY","length":0,"owner":"hdfs","group":"biadmin","permission":"777","accessTime":0,"modificationTime":1417359551197,"blockSize":0,"replication":0}]}}
